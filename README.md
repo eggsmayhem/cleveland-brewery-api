@@ -1,0 +1,3 @@
+In a proper project, I might have used Google's Geocoding API rather than hard-coding coordinates, but as I believe that would have incurred costs, I went with hardcoding. If I were to deploy this as a more dynamic personal project and wanted to enable more easily adding breweries, I might have called to a free alternative Geocoding API, but I didn't see the need to add another API call in this case.
+
+Initially I will just pull out everything when displaying the whole list, but eventually I could theoretically pair that down. 
