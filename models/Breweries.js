@@ -27,6 +27,12 @@ const BrewerySchema = new mongoose.Schema({
     },
     phone_number: {
         type: String,
+    },
+    cheapest_beer: {
+        type: String,
+    },
+    cheapest_beer_price: {
+        type: Number,
     }
 });
 
