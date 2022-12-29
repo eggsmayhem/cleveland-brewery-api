@@ -1,3 +1,5 @@
-In a proper project, I might have used Google's Geocoding API rather than hard-coding coordinates, but as I believe that would have incurred costs, I went with hardcoding. If I were to deploy this as a more dynamic personal project and wanted to enable more easily adding breweries, I might have called to a free alternative Geocoding API, but I didn't see the need to add another API call in this case.
+# Cleveland brews API
 
-Initially I will just pull out everything when displaying the whole list, but eventually I could theoretically pair that down. 
+This API, [hosted on render](https://cleveland-brews-api.onrender.com/breweries/overview), lists breweries in Cleveland, along with their coordinates, website, phone number, and information about their cheapest high-abv beer. The ultimate goal is to make an API that can help people wanting to go out drinking on a budget to be able to determine how different breweries would fit into their budget.
+
+This is a very simple API written in Nodejs.
